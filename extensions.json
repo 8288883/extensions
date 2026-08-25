@@ -4,8 +4,8 @@
       "name": "TIBIU 漫画",
       "packageName": "net.tibiu.komikku.extension",
       "resources": {
-        "apkUrl": "https://github.com/YOUR_GITHUB/komikku-store/releases/download/v1.0.1/TIBIU-Komikku-v1.0.1.apk",
-        "iconUrl": "https://raw.githubusercontent.com/YOUR_GITHUB/komikku-store/main/icons/tibiu_logo.png"
+        "apkUrl": "https://github.com/8288883/extensions/releases/download/v1.0.1/TIBIU-Komikku-v1.0.1-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/tibiu_logo.png"
       },
       "extensionLib": "1.6",
       "versionCode": 2,
