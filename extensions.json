@@ -4,12 +4,12 @@
       "name": "TIBIU 漫画",
       "packageName": "net.tibiu.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/tibiu/TIBIU-Komikku-v1.0.3-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/tibiu/TIBIU-Komikku-v1.0.4-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/tibiu/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 4,
-      "versionName": "1.0.3",
+      "versionCode": 5,
+      "versionName": "1.0.4",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -18,7 +18,7 @@
           "language": "zh",
           "homeUrl": "https://comic.tibiu.net",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.3：分类筛选、详情元数据与请求兼容性改进。"
+          "message": "仅限已获授权的成年用户使用。v1.0.4：分类页筛选、IPv4 网络兼容与错误诊断改进。"
         }
       ]
     },
@@ -26,12 +26,12 @@
       "name": "Nyahentai",
       "packageName": "si.nayhentai.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nyahentai/Nyahentai-Komikku-v1.0.1-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nyahentai/Nyahentai-Komikku-v1.0.2-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nyahentai/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 2,
-      "versionName": "1.0.1",
+      "versionCode": 3,
+      "versionName": "1.0.2",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -40,7 +40,7 @@
           "language": "all",
           "homeUrl": "https://nayhentai.si",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.1：语言筛选、详情元数据与请求兼容性改进。"
+          "message": "仅限已获授权的成年用户使用。v1.0.2：逗号多关键词分类搜索、IPv4 网络兼容与错误诊断改进。"
         }
       ]
     }
