@@ -21,6 +21,28 @@
           "message": "仅限已获授权的成年用户使用。"
         }
       ]
+    },
+    {
+      "name": "Nyahentai",
+      "packageName": "si.nayhentai.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/Nyahentai-Komikku-v1.0.0-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nyahentai_logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 7651943104270359588,
+          "name": "Nyahentai",
+          "language": "all",
+          "homeUrl": "https://nayhentai.si",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。"
+        }
+      ]
     }
   ]
 }
