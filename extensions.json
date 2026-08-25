@@ -26,12 +26,12 @@
       "name": "Nyahentai",
       "packageName": "si.nayhentai.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nyahentai/Nyahentai-Komikku-v1.0.5-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nyahentai/Nyahentai-Komikku-v1.0.6-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nyahentai/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 6,
-      "versionName": "1.0.5",
+      "versionCode": 7,
+      "versionName": "1.0.6",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -40,7 +40,7 @@
           "language": "all",
           "homeUrl": "https://nayhentai.si",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.5：多关键词、语言、分类候选及最高热度／最近更新联合筛选。"
+          "message": "仅限已获授权的成年用户使用。v1.0.6：多关键词筛选性能优化，受控并发详情校验与语言预过滤。"
         }
       ]
     }
