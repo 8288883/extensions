@@ -1,0 +1,10 @@
+{
+  "name": "TIBIU 插件商店",
+  "badgeLabel": "TIBIU",
+  "signingKey": "REPLACE_WITH_YOUR_RELEASE_CERTIFICATE_SHA256",
+  "contact": {
+    "website": "https://github.com/YOUR_GITHUB/komikku-store",
+    "discord": null
+  },
+  "extensionListUrl": "https://raw.githubusercontent.com/YOUR_GITHUB/komikku-store/main/extensions.json"
+}

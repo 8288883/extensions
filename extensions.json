@@ -1,0 +1,26 @@
+{
+  "extensions": [
+    {
+      "name": "TIBIU 漫画",
+      "packageName": "net.tibiu.komikku.extension",
+      "resources": {
+        "apkUrl": "https://github.com/YOUR_GITHUB/komikku-store/releases/download/v1.0.1/TIBIU-Komikku-v1.0.1.apk",
+        "iconUrl": "https://raw.githubusercontent.com/YOUR_GITHUB/komikku-store/main/icons/tibiu_logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 2,
+      "versionName": "1.0.1",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 812728200000000001,
+          "name": "TIBIU 漫画",
+          "language": "zh",
+          "homeUrl": "https://comic.tibiu.net",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。"
+        }
+      ]
+    }
+  ]
+}
