@@ -26,12 +26,12 @@
       "name": "Nyahentai",
       "packageName": "si.nayhentai.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nyahentai/Nyahentai-Komikku-v1.0.7-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nyahentai/Nyahentai-Komikku-v1.0.8-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nyahentai/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 8,
-      "versionName": "1.0.7",
+      "versionCode": 9,
+      "versionName": "1.0.8",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -40,7 +40,7 @@
           "language": "all",
           "homeUrl": "https://nayhentai.si",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.7：完整分页候选覆盖、八路并发详情校验与多关键词结果修复。"
+          "message": "仅限已获授权的成年用户使用。v1.0.8：标签关键词候选搜索、自动分类语义修复与分批重试。"
         }
       ]
     },
@@ -48,7 +48,7 @@
       "name": "TIBIU 漫画（临时 HTTP）",
       "packageName": "net.tibiu.komikku.temphttp.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/tibiu-http-temp/TIBIU-Komikku-temp-http-v0.1.0-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/tibiu/TIBIU-Komikku-temp-http-v0.1.0-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/tibiu/logo.png"
       },
       "extensionLib": "1.6",
