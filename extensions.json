@@ -26,21 +26,21 @@
       "name": "Nyahentai",
       "packageName": "si.nayhentai.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nyahentai/Nyahentai-Komikku-v1.0.10-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nyahentai/Nyahentai-Komikku-v1.0.11-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nyahentai/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 11,
-      "versionName": "1.0.10",
+      "versionCode": 12,
+      "versionName": "1.0.11",
       "contentWarning": "NSFW",
       "sources": [
         {
-          "id": 7651943104270359588,
+          "id": 6864783742637475493,
           "name": "Nyahentai",
-          "language": "all",
-          "homeUrl": "https://nayhentai.si",
+          "language": "zh",
+          "homeUrl": "https://nayhentai.si/",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.10：主页“热门”保留网站官方少量榜单；筛选页仅按最近更新，移除无真实点击数据支撑的伪热度排序。"
+          "message": "仅限已获授权的成年用户使用。v1.0.11：保留分类、语言、排序和逗号多关键词的公开详情严格交集；候选优先使用最长非分类词，显式分类/语言优先用公开分类候选，详情验证改为单个最多 4 线程执行器并加入 128 项公开详情 LRU 缓存。仅对短暂超时、连接错误、HTTP 429/5xx 退避重试一次；所有详情失败会明确报错，不会伪装成无结果。"
         }
       ]
     },
@@ -70,21 +70,21 @@
       "name": "JComic",
       "packageName": "net.jcomic.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/jcomic/JComic-Komikku-v1.0.5-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/jcomic/JComic-Komikku-v1.0.6-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/jcomic/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 6,
-      "versionName": "1.0.5",
+      "versionCode": 7,
+      "versionName": "1.0.6",
       "contentWarning": "NSFW",
       "sources": [
         {
           "id": 7044663852863780949,
           "name": "JComic",
           "language": "zh",
-          "homeUrl": "https://jcomic.net",
+          "homeUrl": "https://jcomic.net/",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.5：多关键词分别使用公开搜索候选；即使某个分类词不被站内搜索索引，也会继续以其他候选的公开详情标题、作者和分类验证全部词。保留 v1.0.4 真实封面与网络、正文图片修复。"
+          "message": "仅限已获授权的成年用户使用。v1.0.6：保留完整候选详情的多关键词严格验证；最多三路并发取得公开关键词候选，最多四路并发核验详情，并缓存 128 项已解析公开详情。不会通过截断候选来换取速度；空候选与全部详情失败保留可区分的结果与错误语义。"
         }
       ]
     },
@@ -158,21 +158,87 @@
       "name": "XChina 套图",
       "packageName": "com.xchina.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/xchina/XChina-Photos-Komikku-v1.0.1-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/xchina/XChina-Photos-Komikku-v1.0.2-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/xchina/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 2,
-      "versionName": "1.0.1",
+      "versionCode": 3,
+      "versionName": "1.0.2",
       "contentWarning": "NSFW",
       "sources": [
         {
-          "id": 685962729801538716,
+          "id": 3423815724507002592,
           "name": "XChina 套图",
           "language": "zh",
           "homeUrl": "https://xchina.co/photos.html",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.1：修复列表封面实际位于 CSS background-image 而被回退为统一图标的问题；正文从逐页抓取全部缩略分页改为仅验证详情公开 P 数与首个 photoShow 主图后生成同一公开连续 HTTPS 图片序列，避免大套图在第十余个详情页触发 HTTP 429。筛选新增公开套图标签一览，可与分类、逗号多关键词严格组合；仅处理套图页。若站点要求人工验证，请在来源 WebView 自行完成；不使用代理、证书绕过或访问控制绕过。"
+          "message": "仅限已获授权的成年用户使用。v1.0.2：仅处理公开套图页。显式分类、公开标签下拉与逗号关键词会共同生效：公开标签候选使用站点服务端 AND，分类和其余关键词再以详情公开系列、标签和元数据严格核验。保留 CSS background-image 真实封面与低请求量图集读取，避免逐页缩略解析导致 HTTP 429；不使用代理、证书绕过或访问控制绕过。"
+        }
+      ]
+    },
+    {
+      "name": "WMTT5",
+      "packageName": "com.wmtt5.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/wmtt5/WMTT5-Komikku-v1.0.0-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/wmtt5/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 8769838029201899829,
+          "name": "WMTT5",
+          "language": "zh",
+          "homeUrl": "https://wmtt5.com/",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。首发版本仅解析 WMTT5 公开漫画目录、详情、章节 token 与 img.nnpic.xyz HTTPS 正文。分类、进度、排序走公开目录路径；逗号多关键词逐本核验详情公开标题、分类、标签、作者与简介，所有词同时匹配。仅使用标准 HTTPS 和 Referer，不使用代理、证书绕过或访问控制绕过。"
+        }
+      ]
+    },
+    {
+      "name": "NHentai Yaoi",
+      "packageName": "com.nhentaiyaoi.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nhentaiyaoi/NHentai-Yaoi-Komikku-v1.0.0-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nhentaiyaoi/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 8357440793543203648,
+          "name": "NHentai Yaoi",
+          "language": "all",
+          "homeUrl": "https://nhentaiyaoi.net/",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。首发版本解析公开首页、分类/语言 archive、公开标签、详情与 wp-content/uploads HTTPS 正文；分类和语言按公开 archive href 的 slug 严格校验，逗号多关键词逐本验证公开详情元数据。使用宿主标准 HTTPS、CookieJar 与普通 Referer；如站点在设备上要求人工验证，请在来源 WebView 自行完成，不绕过访问控制。"
+        }
+      ]
+    },
+    {
+      "name": "91JMD",
+      "packageName": "com.jmd91.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/jmd91/91JMD-Komikku-v1.0.0-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/jmd91/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 4187468933610031368,
+          "name": "91JMD",
+          "language": "zh",
+          "homeUrl": "https://91jmd.com/",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。首发版本仅解析 91JMD 公开分类、作品、章节 token 与 img.nnpic.xyz HTTPS 正文。分类、进度、排序使用公开目录路径；多关键词并行取得公开搜索候选，再逐本严格核验详情的标题、作者、分类、TAG 与剧情。仅使用标准 HTTPS 和 Referer，不使用代理、证书绕过或访问控制绕过。"
         }
       ]
     }
