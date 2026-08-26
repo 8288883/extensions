@@ -92,12 +92,12 @@
       "name": "皮皮漫画",
       "packageName": "com.pipimanhua.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/pipimanhua/PipiManhua-Komikku-v1.0.0-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/pipimanhua/PipiManhua-Komikku-v1.0.2-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/pipimanhua/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 1,
-      "versionName": "1.0.0",
+      "versionCode": 3,
+      "versionName": "1.0.2",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -106,7 +106,7 @@
           "language": "zh",
           "homeUrl": "https://www.pipimanhua.com",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.0：支持网站公开的热门、最近更新、18 个真实分类及单关键词搜索；默认按正常网络 HTTPS 直连，不提供多关键词筛选。"
+          "message": "仅限已获授权的成年用户使用。v1.0.2：修复部分正常网络错误连接 IPv6 未指定地址；主站仅使用经严格 HTTPS 验证的 IPv4 回退。搜索改用网站当前公开的 /599/ POST 单关键词表单；不提供多关键词筛选。"
         }
       ]
     }
