@@ -136,12 +136,12 @@
       "name": "HentaiPaw 中文",
       "packageName": "com.hentaipaw.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/hentaipaw/HentaiPaw-Komikku-v1.0.3-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/hentaipaw/HentaiPaw-Komikku-v1.0.4-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/hentaipaw/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 4,
-      "versionName": "1.0.3",
+      "versionCode": 5,
+      "versionName": "1.0.4",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -150,7 +150,7 @@
           "language": "zh",
           "homeUrl": "https://zh.hentaipaw.com",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.3：修复 v1.0.2 将已由公开标签页验证的标签再次依赖详情可见文本而筛空结果的问题；多标签改为公开标签候选的作品 URL 交集，只有非标签词才继续由详情验证。保留严格 TLS、主机级 IPv4 优先与 HTTP 429 一次短暂退避。"
+          "message": "仅限已获授权的成年用户使用。v1.0.4：内置由网站公开 25 页标签索引生成的 2452 项只读标签映射，修复仅缓存首页导致“大屁股、假小子”等后续中文标签被误判为标题词并返回空的问题；多标签按公开标签页作品 URL 交集返回。保留严格 TLS、主机级 IPv4 优先与 HTTP 429 一次短暂退避。"
         }
       ]
     }
