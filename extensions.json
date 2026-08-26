@@ -153,6 +153,28 @@
           "message": "仅限已获授权的成年用户使用。v1.0.6：保留跨页真实标签 ID 成员验证与完整候选覆盖；将详情验证由逐本串行改为最多 4 路受限并发，并缓存已解析的公开详情标签/元数据，显著降低重复及首轮多标签搜索等待。保留严格 TLS、主机级 IPv4 优先与 HTTP 429 一次短暂退避。"
         }
       ]
+    },
+    {
+      "name": "XChina 套图",
+      "packageName": "com.xchina.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/xchina/XChina-Photos-Komikku-v1.0.0-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/xchina/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 685962729801538716,
+          "name": "XChina 套图",
+          "language": "zh",
+          "homeUrl": "https://xchina.co/photos.html",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.0：仅收录 xchina.co 公开套图页，不包含影片、小说、广告或站外内容。内置公开套图分类与标签索引；逗号分隔的已识别标签直接使用网站服务端多标签 AND 页面，分类使用公开套图系列，详情再次核验分类/标签。正文只读取本站 photoShow 主图和 img.xchina.io HTTPS 图片。若站点要求人工验证，请在来源 WebView 自行完成；不使用代理、证书绕过或访问控制绕过。"
+        }
+      ]
     }
   ]
 }
