@@ -26,12 +26,12 @@
       "name": "Nyahentai",
       "packageName": "si.nayhentai.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nyahentai/Nyahentai-Komikku-v1.0.9-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nyahentai/Nyahentai-Komikku-v1.0.10-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nyahentai/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 10,
-      "versionName": "1.0.9",
+      "versionCode": 11,
+      "versionName": "1.0.10",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -40,7 +40,7 @@
           "language": "all",
           "homeUrl": "https://nayhentai.si",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.9：无关键词官方热门／最近更新浏览与排序修复。"
+          "message": "仅限已获授权的成年用户使用。v1.0.10：主页“热门”保留网站官方少量榜单；筛选页仅按最近更新，移除无真实点击数据支撑的伪热度排序。"
         }
       ]
     },
@@ -63,6 +63,28 @@
           "homeUrl": "http://comic.tibiu.net",
           "mirrorUrls": [],
           "message": "临时不安全来源：仅因 comic.tibiu.net HTTPS 证书过期而启用。v0.1.1 修复最近更新空列表。使用明文 HTTP，可能被读取或篡改；仅限可信网络。HTTPS 恢复后请立即卸载本临时来源并使用安全版 TIBIU 漫画。"
+        }
+      ]
+    },
+    {
+      "name": "JComic",
+      "packageName": "net.jcomic.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/jcomic/JComic-Komikku-v1.0.0-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/jcomic/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 7044663852863780949,
+          "name": "JComic",
+          "language": "zh",
+          "homeUrl": "https://jcomic.net",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.0：基于网站公开分类实现筛选；筛选面板支持逗号分隔的多关键词交集匹配（标题、作者、分类）。"
         }
       ]
     }
