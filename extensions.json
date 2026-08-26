@@ -136,12 +136,12 @@
       "name": "HentaiPaw 中文",
       "packageName": "com.hentaipaw.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/hentaipaw/HentaiPaw-Komikku-v1.0.5-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/hentaipaw/HentaiPaw-Komikku-v1.0.6-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/hentaipaw/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 6,
-      "versionName": "1.0.5",
+      "versionCode": 7,
+      "versionName": "1.0.6",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -150,7 +150,7 @@
           "language": "zh",
           "homeUrl": "https://zh.hentaipaw.com",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.5：保留公开 25 页生成的 2452 项只读标签映射；多精确标签不再按相同页码做 URL 交集，而是选择结果页较少的标签作候选，并逐本核验公开详情的真实标签 ID，修复“母亲、乱伦”等跨页共同成员被漏掉的问题。保留严格 TLS、主机级 IPv4 优先与 HTTP 429 一次短暂退避。"
+          "message": "仅限已获授权的成年用户使用。v1.0.6：保留跨页真实标签 ID 成员验证与完整候选覆盖；将详情验证由逐本串行改为最多 4 路受限并发，并缓存已解析的公开详情标签/元数据，显著降低重复及首轮多标签搜索等待。保留严格 TLS、主机级 IPv4 优先与 HTTP 429 一次短暂退避。"
         }
       ]
     }
