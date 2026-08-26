@@ -87,6 +87,28 @@
           "message": "仅限已获授权的成年用户使用。v1.0.4：恢复每部漫画的实时真实封面，封面字段缺失时才使用 HTTPS 占位图；保留 v1.0.2 常规网络 DNS 修复与 v1.0.3 正文图片 URL 修复。"
         }
       ]
+    },
+    {
+      "name": "皮皮漫画",
+      "packageName": "com.pipimanhua.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/pipimanhua/PipiManhua-Komikku-v1.0.0-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/pipimanhua/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 3714529564650947874,
+          "name": "皮皮漫画",
+          "language": "zh",
+          "homeUrl": "https://www.pipimanhua.com",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.0：支持网站公开的热门、最近更新、18 个真实分类及单关键词搜索；默认按正常网络 HTTPS 直连，不提供多关键词筛选。"
+        }
+      ]
     }
   ]
 }
