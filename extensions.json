@@ -114,12 +114,12 @@
       "name": "C漫画",
       "packageName": "com.cmanhua.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/cmanhua/CManhua-Komikku-v1.0.1-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/cmanhua/CManhua-Komikku-v1.0.2-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/cmanhua/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 2,
-      "versionName": "1.0.1",
+      "versionCode": 3,
+      "versionName": "1.0.2",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -128,7 +128,7 @@
           "language": "zh",
           "homeUrl": "https://cmanhua.com",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.1：筛选面板未填写关键词时使用公开可分页的 /Browse 全站漫画列表；单关键词、逗号多关键词详情交集、章节与图片阅读保持可用。默认使用正常 HTTPS 网络直连。"
+          "message": "仅限已获授权的成年用户使用。v1.0.2：补充站点公开 cimgNN.g5img.top HTTPS 正文 CDN，修复部分章节 data-src 被错误排除导致无图片；保留 Browse 全站分页与搜索、多关键词、章节阅读。默认使用正常 HTTPS 网络直连。"
         }
       ]
     },
@@ -136,12 +136,12 @@
       "name": "HentaiPaw 中文",
       "packageName": "com.hentaipaw.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/hentaipaw/HentaiPaw-Komikku-v1.0.1-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/hentaipaw/HentaiPaw-Komikku-v1.0.2-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/hentaipaw/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 2,
-      "versionName": "1.0.1",
+      "versionCode": 3,
+      "versionName": "1.0.2",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -150,7 +150,7 @@
           "language": "zh",
           "homeUrl": "https://zh.hentaipaw.com",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.1：根据用户正常网络日志的 TLS 握手 Connection reset，本站主机仅优先使用经严格 SNI、证书和 HTTPS 探测验证的 IPv4，保留完整 TLS 校验和系统 DNS 回退；多关键词分别使用公开搜索候选并以公开详情验证全部词。无需 VPN、代理或访问控制绕过。"
+          "message": "仅限已获授权的成年用户使用。v1.0.2：保留已严格验证的主机级 IPv4 优先与 TLS 校验；多关键词优先识别网站公开精确标签并使用标签分页候选，避免将分类词误作标题搜索；HTTP 429 时仅短暂遵守 Retry-After 后重试一次。无需 VPN、代理或访问控制绕过。"
         }
       ]
     }
