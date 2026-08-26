@@ -136,21 +136,21 @@
       "name": "HentaiPaw 中文",
       "packageName": "com.hentaipaw.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/hentaipaw/HentaiPaw-Komikku-v1.0.6-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/hentaipaw/HentaiPaw-Komikku-v1.0.7-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/hentaipaw/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 7,
-      "versionName": "1.0.6",
+      "versionCode": 8,
+      "versionName": "1.0.7",
       "contentWarning": "NSFW",
       "sources": [
         {
           "id": 7781648004906399686,
           "name": "HentaiPaw 中文",
           "language": "zh",
-          "homeUrl": "https://zh.hentaipaw.com",
+          "homeUrl": "https://zh.hentaipaw.com/",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.6：保留跨页真实标签 ID 成员验证与完整候选覆盖；将详情验证由逐本串行改为最多 4 路受限并发，并缓存已解析的公开详情标签/元数据，显著降低重复及首轮多标签搜索等待。保留严格 TLS、主机级 IPv4 优先与 HTTP 429 一次短暂退避。"
+          "message": "仅限已获授权的成年用户使用。v1.0.7：保留跨页真实标签 ID 成员验证、完整候选覆盖和最多四路详情核验；取消自动重试和标签总页数探测，避免首搜额外串行请求与等待，并将公开详情 LRU 缓存扩展至 256 项。站点返回 HTTP 429 时会明确提示稍后手动刷新；不使用代理、证书绕过或访问控制绕过。"
         }
       ]
     },
@@ -158,12 +158,12 @@
       "name": "XChina 套图",
       "packageName": "com.xchina.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/xchina/XChina-Photos-Komikku-v1.0.2-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/xchina/XChina-Photos-Komikku-v1.0.3-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/xchina/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 3,
-      "versionName": "1.0.2",
+      "versionCode": 4,
+      "versionName": "1.0.3",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -172,7 +172,7 @@
           "language": "zh",
           "homeUrl": "https://xchina.co/photos.html",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.2：仅处理公开套图页。显式分类、公开标签下拉与逗号关键词会共同生效：公开标签候选使用站点服务端 AND，分类和其余关键词再以详情公开系列、标签和元数据严格核验。保留 CSS background-image 真实封面与低请求量图集读取，避免逐页缩略解析导致 HTTP 429；不使用代理、证书绕过或访问控制绕过。"
+          "message": "仅限已获授权的成年用户使用。v1.0.3：仅处理公开套图页。显式分类、公开标签下拉与逗号关键词会共同生效；当分类与标签/关键词同时选择时，改以公开分类列表为候选，再从详情严格同时核验系列 ID、标签 slug 与其余关键词，避免两种列表独立排序造成空结果。保留 CSS background-image 真实封面与低请求量图集读取；不使用代理、证书绕过或访问控制绕过。"
         }
       ]
     },
