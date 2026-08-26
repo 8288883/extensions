@@ -70,12 +70,12 @@
       "name": "JComic",
       "packageName": "net.jcomic.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/jcomic/JComic-Komikku-v1.0.3-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/jcomic/JComic-Komikku-v1.0.4-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/jcomic/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 4,
-      "versionName": "1.0.3",
+      "versionCode": 5,
+      "versionName": "1.0.4",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -84,7 +84,7 @@
           "language": "zh",
           "homeUrl": "https://jcomic.net",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.3：阅读页同时提供 Page.url 与 Page.imageUrl 的有效 HTTPS 地址，修复部分章节空 URL；封面使用稳定 HTTPS 占位图。保留 v1.0.2 的可信 IPv4 DNS 回退。"
+          "message": "仅限已获授权的成年用户使用。v1.0.4：恢复每部漫画的实时真实封面，封面字段缺失时才使用 HTTPS 占位图；保留 v1.0.2 常规网络 DNS 修复与 v1.0.3 正文图片 URL 修复。"
         }
       ]
     }
