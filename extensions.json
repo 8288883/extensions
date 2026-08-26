@@ -70,12 +70,12 @@
       "name": "JComic",
       "packageName": "net.jcomic.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/jcomic/JComic-Komikku-v1.0.1-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/jcomic/JComic-Komikku-v1.0.2-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/jcomic/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 2,
-      "versionName": "1.0.1",
+      "versionCode": 3,
+      "versionName": "1.0.2",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -84,7 +84,7 @@
           "language": "zh",
           "homeUrl": "https://jcomic.net",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.1：修复部分作品图片 URL 无协议导致无法打开；增加图片 Referer 请求与 IPv4 优先网络回退，改善无 VPN 网络兼容性。"
+          "message": "仅限已获授权的成年用户使用。v1.0.2：修复正常网络被错误 DNS 解析至 157.240.1.33 的超时；仅使用已严格 TLS 验证的 JComic IPv4 回退。关闭会被 CDN 访问策略拦截的直链封面，正文图片仍保留来源请求。"
         }
       ]
     }
