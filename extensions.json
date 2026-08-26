@@ -153,6 +153,28 @@
           "message": "仅限已获授权的成年用户使用。v1.0.0：公开热门、最近更新、单关键词搜索、章节与图片阅读；多关键词使用逗号分隔，并以站点公开详情的标题、作者、简介和状态验证全部关键词。默认使用正常 HTTPS 网络直连。"
         }
       ]
+    },
+    {
+      "name": "HentaiPaw 中文",
+      "packageName": "com.hentaipaw.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/hentaipaw/HentaiPaw-Komikku-v1.0.0-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/hentaipaw/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 7781648004906399686,
+          "name": "HentaiPaw 中文",
+          "language": "zh",
+          "homeUrl": "https://zh.hentaipaw.com",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.0：热门、最近更新、作品详情、单章节阅读与图片解析；多关键词用逗号分隔并基于公开详情交集匹配。如网站要求验证，请由用户在 Komikku 来源 WebView 中自行完成；本来源不自动化或绕过 Cloudflare、验证码、登录、付费或 TLS 校验。"
+        }
+      ]
     }
   ]
 }
