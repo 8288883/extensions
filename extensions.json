@@ -43,6 +43,28 @@
           "message": "仅限已获授权的成年用户使用。v1.0.7：完整分页候选覆盖、八路并发详情校验与多关键词结果修复。"
         }
       ]
+    },
+    {
+      "name": "TIBIU 漫画（临时 HTTP）",
+      "packageName": "net.tibiu.komikku.temphttp.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/tibiu-http-temp/TIBIU-Komikku-temp-http-v0.1.0-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/tibiu/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 1,
+      "versionName": "0.1.0-temp-http",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 3566897989573194165,
+          "name": "TIBIU 漫画（临时 HTTP）",
+          "language": "zh",
+          "homeUrl": "http://comic.tibiu.net",
+          "mirrorUrls": [],
+          "message": "临时不安全来源：仅因 comic.tibiu.net HTTPS 证书过期而启用。使用明文 HTTP，可能被读取或篡改；仅限可信网络。HTTPS 恢复后请立即卸载本临时来源并使用安全版 TIBIU 漫画。"
+        }
+      ]
     }
   ]
 }
