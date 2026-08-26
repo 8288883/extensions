@@ -109,6 +109,28 @@
           "message": "仅限已获授权的成年用户使用。v1.0.2：修复部分正常网络错误连接 IPv6 未指定地址；主站仅使用经严格 HTTPS 验证的 IPv4 回退。搜索改用网站当前公开的 /599/ POST 单关键词表单；不提供多关键词筛选。"
         }
       ]
+    },
+    {
+      "name": "250漫画",
+      "packageName": "cc.mh250.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/mh250/Mh250-Komikku-v1.0.0-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/mh250/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 5175541392364239409,
+          "name": "250漫画",
+          "language": "zh",
+          "homeUrl": "https://www.mh250.cc",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.0：公开分类、单关键词搜索、热门、可分页最近更新、章节与图片阅读；默认使用正常 HTTPS 网络直连。"
+        }
+      ]
     }
   ]
 }
