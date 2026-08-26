@@ -4,6 +4,98 @@
       "name": "TIBIU 漫画",
       "packageName": "net.tibiu.komikku.extension",
       "resources": {
+  "extensions": [
+    {
+      "name": "TIBIU 漫画",
+      "packageName": "net.tibiu.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/tibiu/TIBIU-Komikku-v1.0.4-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/tibiu/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 5,
+      "versionName": "1.0.4",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 3311772026073858867,
+          "name": "TIBIU 漫画",
+          "language": "zh",
+          "homeUrl": "https://comic.tibiu.net",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.4：分类页筛选、IPv4 网络兼容与错误诊断改进。"
+        }
+      ]
+    },
+    {
+      "name": "Nyahentai",
+      "packageName": "si.nayhentai.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nyahentai/Nyahentai-Komikku-v1.0.10-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nyahentai/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 11,
+      "versionName": "1.0.10",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 7651943104270359588,
+          "name": "Nyahentai",
+          "language": "all",
+          "homeUrl": "https://nayhentai.si",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.10：主页“热门”保留网站官方少量榜单；筛选页仅按最近更新，移除无真实点击数据支撑的伪热度排序。"
+        }
+      ]
+    },
+    {
+      "name": "TIBIU 漫画（临时 HTTP）",
+      "packageName": "net.tibiu.komikku.temphttp.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/tibiu/TIBIU-Komikku-temp-http-v0.1.1-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/tibiu/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 2,
+      "versionName": "0.1.1-temp-http",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 3566897989573194165,
+          "name": "TIBIU 漫画（临时 HTTP）",
+          "language": "zh",
+          "homeUrl": "http://comic.tibiu.net",
+          "mirrorUrls": [],
+          "message": "临时不安全来源：仅因 comic.tibiu.net HTTPS 证书过期而启用。v0.1.1 修复最近更新空列表。使用明文 HTTP，可能被读取或篡改；仅限可信网络。HTTPS 恢复后请立即卸载本临时来源并使用安全版 TIBIU 漫画。"
+        }
+      ]
+    },
+    {
+      "name": "JComic",
+      "packageName": "net.jcomic.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/jcomic/JComic-Komikku-v1.0.3-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/jcomic/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 4,
+      "versionName": "1.0.3",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 7044663852863780949,
+          "name": "JComic",
+          "language": "zh",
+          "homeUrl": "https://jcomic.net",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.3：阅读页同时提供 Page.url 与 Page.imageUrl 的有效 HTTPS 地址，修复部分章节空 URL；封面使用稳定 HTTPS 占位图。保留 v1.0.2 的可信 IPv4 DNS 回退。"
+        }
+      ]
+    }
+  ]
+}
+
         "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/tibiu/TIBIU-Komikku-v1.0.4-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/tibiu/logo.png"
       },
