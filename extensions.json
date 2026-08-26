@@ -131,6 +131,28 @@
           "message": "仅限已获授权的成年用户使用。v1.0.1：详情页仅读取作品 Open Graph 真实封面，避免搜索或站点 UI 图片覆盖；公开分类、单关键词搜索、热门、可分页最近更新、章节与图片阅读均已回归验证，默认使用正常 HTTPS 网络直连。"
         }
       ]
+    },
+    {
+      "name": "C漫画",
+      "packageName": "com.cmanhua.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/cmanhua/CManhua-Komikku-v1.0.0-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/cmanhua/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 2641078534968664207,
+          "name": "C漫画",
+          "language": "zh",
+          "homeUrl": "https://cmanhua.com",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.0：公开热门、最近更新、单关键词搜索、章节与图片阅读；多关键词使用逗号分隔，并以站点公开详情的标题、作者、简介和状态验证全部关键词。默认使用正常 HTTPS 网络直连。"
+        }
+      ]
     }
   ]
 }
