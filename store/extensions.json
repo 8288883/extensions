@@ -202,12 +202,12 @@
       "name": "NHentai Yaoi",
       "packageName": "com.nhentaiyaoi.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/nhentaiyaoi/NHentai-Yaoi-Komikku-v1.0.3-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/nhentaiyaoi/NHentai-Yaoi-Komikku-v1.0.4-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/nhentaiyaoi/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 4,
-      "versionName": "1.0.3",
+      "versionCode": 5,
+      "versionName": "1.0.4",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -216,7 +216,7 @@
           "language": "all",
           "homeUrl": "https://nhentaiyaoi.net/",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.3：搜索栏中的圆括号、中括号及同类标题标记会被安全规范化；候选请求只使用最长有效词，解决原站对括号或完整长标题返回无结果的问题。所有逗号分隔条件仍以同样规范化后的作品局部公开 metadata 严格 AND 核验。保留真实搜索分页、作品卡片限定、公开 OG 封面、完整详情及最多六路并发/256 项 LRU 缓存。仅使用标准 HTTPS、CookieJar 与普通 Referer，不绕过访问控制。"
+          "message": "仅限已获授权的成年用户使用。v1.0.4：修复部分作品 slug 含全角或不可见 Unicode 时，原始路径被直接写入图片 Referer 头而触发 OkHttp IllegalArgumentException 的问题。Referer 现转换为本站 HTTPS ASCII URL；无法安全编码时才回退公开首页，不影响图片原始 HTTPS URL，也不放宽 TLS 或导入 Cookie。"
         }
       ]
     },
@@ -246,12 +246,12 @@
       "name": "LoveCP Books",
       "packageName": "com.lovecpbooks.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/lovecpbooks/LoveCP-Books-Komikku-v1.0.3-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/lovecpbooks/LoveCP-Books-Komikku-v1.0.4-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/lovecpbooks/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 4,
-      "versionName": "1.0.3",
+      "versionCode": 5,
+      "versionName": "1.0.4",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -260,7 +260,7 @@
           "language": "ja",
           "homeUrl": "https://lovecp-books.com/",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.3：公开新着 `/comics/new/{page}` 在严格 HTTPS + HTTP/1.1 与完整常规浏览器导航头下已复测为 200；本版本仅对 LoveCP 主站页面使用标准 HTTP/1.1 以兼容部分设备的 HTTP 500，同时保留默认 TLS、证书与主机名校验。不使用 Cookie、代理、登录或访问控制绕过；若仍报 500，须以该版本的新日志定位设备侧差异。"
+          "message": "仅限已获授权的成年用户使用。v1.0.4：热门首屏改为站点根页公开排行榜；最近更新若首个 `/comics/new/1` 返回服务器 5xx，才自动回退至同站根页已公开的新着卡片。后续页、4xx、TLS/连接错误仍如实提示，不伪造列表或掩盖网络故障。保留严格 HTTPS 与默认 TLS/证书/主机名校验；不使用 Cookie、代理、登录或访问控制绕过。"
         }
       ]
     },
