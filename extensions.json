@@ -202,12 +202,12 @@
       "name": "NHentai Yaoi",
       "packageName": "com.nhentaiyaoi.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nhentaiyaoi/NHentai-Yaoi-Komikku-v1.0.1-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nhentaiyaoi/NHentai-Yaoi-Komikku-v1.0.2-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/nhentaiyaoi/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 2,
-      "versionName": "1.0.1",
+      "versionCode": 3,
+      "versionName": "1.0.2",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -216,7 +216,7 @@
           "language": "all",
           "homeUrl": "https://nhentaiyaoi.net/",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.1：详情封面优先取公开 OG 图，避免详情返回后被站点 logo 覆盖；分类、标签、同人、作者、组别和语言写入简介与 genre。逗号多关键词仅以作品局部公开 metadata 严格核验，排除全站导航噪声。使用标准 HTTPS、CookieJar 与普通 Referer；如站点在设备上要求人工验证，请在来源 WebView 自行完成，不绕过访问控制。"
+          "message": "仅限已获授权的成年用户使用。v1.0.2：仅从公开 `.thumb-conteudo` 作品卡片提取漫画，明确排除 Artists、Parodies、Characters 等导航页。关键词第 2 页起使用真实 `/page/{n}/?s=` 路径，不再停在首批 20 项；详情严格验证提高为最多六路并发和 256 项 LRU 缓存。保留公开 OG 封面、分类、标签、同人、作者、组别与语言详情。使用标准 HTTPS、CookieJar 与普通 Referer；不绕过访问控制。"
         }
       ]
     },
