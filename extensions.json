@@ -246,12 +246,12 @@
       "name": "LoveCP Books",
       "packageName": "com.lovecpbooks.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/lovecpbooks/LoveCP-Books-Komikku-v1.0.2-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/lovecpbooks/LoveCP-Books-Komikku-v1.0.3-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/lovecpbooks/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 3,
-      "versionName": "1.0.2",
+      "versionCode": 4,
+      "versionName": "1.0.3",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -260,7 +260,7 @@
           "language": "ja",
           "homeUrl": "https://lovecp-books.com/",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.2：默认热门和最近更新均使用用户设备已确认可读的公开新着目录 `/comics/new/{page}`，避免部分移动网络对排行榜接口返回服务器 500。保留公开详情、原作、CP、角色、标签、同站 HTTPS 阅读及严格多关键词 metadata 核验；不绕过验证、登录或 TLS。"
+          "message": "仅限已获授权的成年用户使用。v1.0.3：公开新着 `/comics/new/{page}` 在严格 HTTPS + HTTP/1.1 与完整常规浏览器导航头下已复测为 200；本版本仅对 LoveCP 主站页面使用标准 HTTP/1.1 以兼容部分设备的 HTTP 500，同时保留默认 TLS、证书与主机名校验。不使用 Cookie、代理、登录或访问控制绕过；若仍报 500，须以该版本的新日志定位设备侧差异。"
         }
       ]
     },
@@ -290,12 +290,12 @@
       "name": "Eromanga Show",
       "packageName": "com.eromangashow.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/eromangashow/Eromanga-Show-Komikku-v1.0.2-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/eromangashow/Eromanga-Show-Komikku-v1.0.3-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/eromangashow/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 3,
-      "versionName": "1.0.2",
+      "versionCode": 4,
+      "versionName": "1.0.3",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -304,7 +304,7 @@
           "language": "ja",
           "homeUrl": "https://eromanga-show.com/",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.2：内置从公开标签目录 96 页保存的 9,477 条只读标签名—ID 映射。全部逗号关键词均为精确公开标签时，先取一个 `/tags/{id}` 候选页，再用作品详情 tag ID 核验完整交集；不再对每条候选做一秒串行查询。仍只匹配作品自身标题与显式 metadata，不含相关推荐/热门文本。"
+          "message": "仅限已获授权的成年用户使用。v1.0.3：因用户设备实测标签页 `/tags/{id}` 会返回 HTTP 429，运行时已回退为完整公开站内搜索候选页，再严格核验作品自身标题和显式 metadata；不再用失败标签页缩减结果。详情读取采用单路、每秒一次并仅对 429 等待重试一次，避免突发请求；公开标签索引保留为离线资料。"
         }
       ]
     }
