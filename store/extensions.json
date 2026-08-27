@@ -70,12 +70,12 @@
       "name": "JComic",
       "packageName": "net.jcomic.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/jcomic/JComic-Komikku-v1.0.6-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/jcomic/JComic-Komikku-v1.0.8-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/jcomic/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 7,
-      "versionName": "1.0.6",
+      "versionCode": 9,
+      "versionName": "1.0.8",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -84,7 +84,7 @@
           "language": "zh",
           "homeUrl": "https://jcomic.net/",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.6：保留完整候选详情的多关键词严格验证；最多三路并发取得公开关键词候选，最多四路并发核验详情，并缓存 128 项已解析公开详情。不会通过截断候选来换取速度；空候选与全部详情失败保留可区分的结果与错误语义。"
+          "message": "仅限已获授权的成年用户使用。v1.0.8：修复多目录作品；公开详情内所有具名 `/page/{作品}/{目录}` 入口均会被列为章节，包括“熟肉”“生肉”等非“第X话”名称，排除无文字封面链接和上一/下一章导航。缺封面时的稳定 logo 回退已改为统一 `store/jcomic/` 二级资源路径；保留严格 HTTPS、受验证 DNS 与每次阅读重新取得公开时效图片 URL。"
         }
       ]
     },
@@ -246,12 +246,12 @@
       "name": "LoveCP Books",
       "packageName": "com.lovecpbooks.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/lovecpbooks/LoveCP-Books-Komikku-v1.0.1-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/lovecpbooks/LoveCP-Books-Komikku-v1.0.2-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/lovecpbooks/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 2,
-      "versionName": "1.0.1",
+      "versionCode": 3,
+      "versionName": "1.0.2",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -260,7 +260,7 @@
           "language": "ja",
           "homeUrl": "https://lovecp-books.com/",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.1：为目录与榜单请求加入常规移动浏览器头；仅对服务器短暂 5xx 再试一次，4xx 不重试，不绕过挑战、登录或 TLS 校验。保留已公开的新着、排名、详情、原作、CP、角色、标签与同站 HTTPS 全图阅读；逗号多关键词及字段筛选仍逐本严格核验公开详情 metadata。"
+          "message": "仅限已获授权的成年用户使用。v1.0.2：默认热门和最近更新均使用用户设备已确认可读的公开新着目录 `/comics/new/{page}`，避免部分移动网络对排行榜接口返回服务器 500。保留公开详情、原作、CP、角色、标签、同站 HTTPS 阅读及严格多关键词 metadata 核验；不绕过验证、登录或 TLS。"
         }
       ]
     },
@@ -290,12 +290,12 @@
       "name": "Eromanga Show",
       "packageName": "com.eromangashow.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/eromangashow/Eromanga-Show-Komikku-v1.0.1-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/eromangashow/Eromanga-Show-Komikku-v1.0.2-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/eromangashow/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 2,
-      "versionName": "1.0.1",
+      "versionCode": 3,
+      "versionName": "1.0.2",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -304,7 +304,7 @@
           "language": "ja",
           "homeUrl": "https://eromanga-show.com/",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.1：单关键词直接使用原站公开搜索；逗号多关键词与字段筛选只核验该作品标题和显式 metadata，排除相关作品/热门作品文本。为避免站点对并发详情读取返回 429，完整候选详情改为单路、每秒最多一次请求；不猜测每页 hash，也不绕过访问控制。"
+          "message": "仅限已获授权的成年用户使用。v1.0.2：内置从公开标签目录 96 页保存的 9,477 条只读标签名—ID 映射。全部逗号关键词均为精确公开标签时，先取一个 `/tags/{id}` 候选页，再用作品详情 tag ID 核验完整交集；不再对每条候选做一秒串行查询。仍只匹配作品自身标题与显式 metadata，不含相关推荐/热门文本。"
         }
       ]
     }
