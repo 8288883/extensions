@@ -307,6 +307,28 @@
           "message": "仅限已获授权的成年用户使用。v1.0.3：因用户设备实测标签页 `/tags/{id}` 会返回 HTTP 429，运行时已回退为完整公开站内搜索候选页，再严格核验作品自身标题和显式 metadata；不再用失败标签页缩减结果。详情读取采用单路、每秒一次并仅对 429 等待重试一次，避免突发请求；公开标签索引保留为离线资料。"
         }
       ]
+    },
+    {
+      "name": "非常爱漫",
+      "packageName": "com.veryim.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/veryim/Veryim-Komikku-v1.0.0-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/veryim/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 5933725080679923582,
+          "name": "非常爱漫",
+          "language": "zh",
+          "homeUrl": "https://www.veryim.com/",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。首发版本仅解析公开 HTTPS 列表、搜索、详情、章节与正文图片；不登录、不使用代理或访问控制绕过。当前 APK 为 debug 签名，设备验证待完成。"
+        }
+      ]
     }
   ]
 }
