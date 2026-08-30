@@ -312,12 +312,12 @@
       "name": "非常爱漫",
       "packageName": "com.veryim.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/veryim/Veryim-Komikku-v1.0.6-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/veryim/Veryim-Komikku-v1.0.7-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/veryim/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 7,
-      "versionName": "1.0.6",
+      "versionCode": 8,
+      "versionName": "1.0.7",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -326,7 +326,7 @@
           "language": "zh",
           "homeUrl": "https://www.veryim.com/",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.5：保持原版 packageName 和签名证书，仅递增 v1.0.6：章节编号已解析并按最新章节优先顺序返回；扩展客户端 IPv4 优先。"
+          "message": "v1.0.7：章节列表在 SMangaUpdate 最终返回前统一按图源旧章到新章顺序反转，确保最新章节在前；保留章节编号解析和 IPv4 优先。"
         }
       ]
     }
