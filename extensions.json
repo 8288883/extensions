@@ -312,12 +312,12 @@
       "name": "非常爱漫",
       "packageName": "com.veryim.komikku.extension",
       "resources": {
-      "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/veryim/Veryim-Komikku-v1.0.2-debug.apk",
+      "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/veryim/Veryim-Komikku-v1.0.3-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/veryim/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 3,
-      "versionName": "1.0.2",
+      "versionCode": 4,
+      "versionName": "1.0.3",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -326,7 +326,7 @@
           "language": "zh",
           "homeUrl": "https://www.veryim.com/",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.2：保持原版 packageName 和签名证书，仅递增 versionCode 以支持覆盖安装；搜索严格复用原站公开 /statics/search.aspx?key= 请求，第 2 页起使用原站实际 page=N 参数，保留原站返回顺序和结果。不登录、不使用代理或访问控制绕过；设备验证待完成。"
+          "message": "仅限已获授权的成年用户使用。v1.0.3：保持原版 packageName 和签名证书，仅递增 versionCode 以支持覆盖安装；搜索严格复用原站公开 /statics/search.aspx?key= 请求，第 2 页起使用原站实际 page=N 参数，保留原站返回顺序和结果；详情兼容 og:image 与多种公开图片属性，正文兼容站点公开 f2-img.534zm.com 图片协议并对短暂连接错误有限重试。不登录、不使用代理或访问控制绕过；设备验证待完成。"
         }
       ]
     }
