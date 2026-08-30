@@ -48,12 +48,12 @@
       "name": "TIBIU 漫画（临时 HTTP）",
       "packageName": "net.tibiu.komikku.temphttp.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/tibiu/TIBIU-Komikku-temp-http-v0.1.3-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/tibiu/TIBIU-Komikku-temp-http-v0.1.1-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/tibiu/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 4,
-      "versionName": "0.1.3-temp-http",
+      "versionCode": 2,
+      "versionName": "0.1.1-temp-http",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -62,7 +62,7 @@
           "language": "zh",
           "homeUrl": "http://comic.tibiu.net",
           "mirrorUrls": [],
-          "message": "临时不安全来源：使用明文 HTTP，可能被读取或篡改；仅限可信网络。v0.1.3 将章节返回顺序确定为最新章节在前，修复阅读器从第5章末尾向下滚动返回第4章的问题。HTTPS 恢复后请立即卸载本临时来源并使用安全版 TIBIU 漫画。"
+          "message": "临时不安全来源：仅因 comic.tibiu.net HTTPS 证书过期而启用。v0.1.1 修复最近更新空列表。使用明文 HTTP，可能被读取或篡改；仅限可信网络。HTTPS 恢复后请立即卸载本临时来源并使用安全版 TIBIU 漫画。"
         }
       ]
     },
@@ -180,12 +180,12 @@
       "name": "WMTT5",
       "packageName": "com.wmtt5.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/wmtt5/WMTT5-Komikku-v1.0.0-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/wmtt5/WMTT5-Komikku-v1.0.1-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/wmtt5/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 1,
-      "versionName": "1.0.0",
+      "versionCode": 2,
+      "versionName": "1.0.1",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -194,7 +194,7 @@
           "language": "zh",
           "homeUrl": "https://wmtt5.com/",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。首发版本仅解析 WMTT5 公开漫画目录、详情、章节 token 与 img.nnpic.xyz HTTPS 正文。分类、进度、排序走公开目录路径；逗号多关键词逐本核验详情公开标题、分类、标签、作者与简介，所有词同时匹配。仅使用标准 HTTPS 和 Referer，不使用代理、证书绕过或访问控制绕过。"
+          "message": "仅限已获授权的成年用户使用。首发版本仅解析 WMTT5 公开漫画目录、详情、章节 token 与 img.nnpic.xyz HTTPS 正文。分类、进度、排序走公开目录路径；逗号多关键词逐本核验详情公开标题、分类、标签、作者与简介，所有词同时匹配。仅使用标准 HTTPS 和 Referer，不使用代理、证书绕过或访问控制绕过。 v1.0.1：章节列表已按图源章节顺序反向返回，保证最新章节在前。"
         }
       ]
     },
@@ -224,12 +224,12 @@
       "name": "91JMD",
       "packageName": "com.jmd91.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/jmd91/91JMD-Komikku-v1.0.0-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/jmd91/91JMD-Komikku-v1.0.1-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/jmd91/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 1,
-      "versionName": "1.0.0",
+      "versionCode": 2,
+      "versionName": "1.0.1",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -238,7 +238,7 @@
           "language": "zh",
           "homeUrl": "https://91jmd.com/",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。首发版本仅解析 91JMD 公开分类、作品、章节 token 与 img.nnpic.xyz HTTPS 正文。分类、进度、排序使用公开目录路径；多关键词并行取得公开搜索候选，再逐本严格核验详情的标题、作者、分类、TAG 与剧情。仅使用标准 HTTPS 和 Referer，不使用代理、证书绕过或访问控制绕过。"
+          "message": "仅限已获授权的成年用户使用。首发版本仅解析 91JMD 公开分类、作品、章节 token 与 img.nnpic.xyz HTTPS 正文。分类、进度、排序使用公开目录路径；多关键词并行取得公开搜索候选，再逐本严格核验详情的标题、作者、分类、TAG 与剧情。仅使用标准 HTTPS 和 Referer，不使用代理、证书绕过或访问控制绕过。 v1.0.1：章节列表已按图源章节顺序反向返回，保证最新章节在前。"
         }
       ]
     },
@@ -312,12 +312,12 @@
       "name": "非常爱漫",
       "packageName": "com.veryim.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/veryim/Veryim-Komikku-v1.0.5-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/veryim/Veryim-Komikku-v1.0.6-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/veryim/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 6,
-      "versionName": "1.0.5",
+      "versionCode": 7,
+      "versionName": "1.0.6",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -326,7 +326,7 @@
           "language": "zh",
           "homeUrl": "https://www.veryim.com/",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.5：保持原版 packageName 和签名证书，仅递增 versionCode 以支持覆盖安装；搜索严格复用原站公开 /statics/search.aspx?key= 请求，第 2 页起使用原站实际 page=N 参数，保留原站返回顺序和结果；来源客户端固定 HTTP/1.1、IPv4 优先并开启连接失败重试；详情/正文网络错误区分 DNS、TCP、TLS、超时和连接关闭并包含 URL。不登录、不使用代理或访问控制绕过；设备验证待完成。"
+          "message": "仅限已获授权的成年用户使用。v1.0.5：保持原版 packageName 和签名证书，仅递增 v1.0.6：章节编号已解析并按最新章节优先顺序返回；扩展客户端 IPv4 优先。"
         }
       ]
     }
