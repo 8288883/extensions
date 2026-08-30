@@ -48,12 +48,12 @@
       "name": "TIBIU 漫画（临时 HTTP）",
       "packageName": "net.tibiu.komikku.temphttp.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/tibiu/TIBIU-Komikku-temp-http-v0.1.1-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/tibiu/TIBIU-Komikku-temp-http-v0.1.2-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/tibiu/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 2,
-      "versionName": "0.1.1-temp-http",
+      "versionCode": 3,
+      "versionName": "0.1.2-temp-http",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -62,7 +62,7 @@
           "language": "zh",
           "homeUrl": "http://comic.tibiu.net",
           "mirrorUrls": [],
-          "message": "临时不安全来源：仅因 comic.tibiu.net HTTPS 证书过期而启用。v0.1.1 修复最近更新空列表。使用明文 HTTP，可能被读取或篡改；仅限可信网络。HTTPS 恢复后请立即卸载本临时来源并使用安全版 TIBIU 漫画。"
+          "message": "临时不安全来源：使用明文 HTTP，可能被读取或篡改；仅限可信网络。v0.1.2 修复章节列表按 chapter_number 降序排列，避免阅读器向下滚动返回上一章。HTTPS 恢复后请立即卸载本临时来源并使用安全版 TIBIU 漫画。"
         }
       ]
     },
@@ -312,7 +312,7 @@
       "name": "非常爱漫",
       "packageName": "com.veryim.komikku.extension",
       "resources": {
-      "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/veryim/Veryim-Komikku-v1.0.5-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/veryim/Veryim-Komikku-v1.0.5-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/veryim/logo.png"
       },
       "extensionLib": "1.6",
