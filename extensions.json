@@ -334,12 +334,12 @@
       "name": "漫画社",
       "packageName": "com.three11.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/Three11s-Komikku-v1.0.4-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/Three11s-Komikku-v1.0.5-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 5,
-      "versionName": "1.0.4",
+      "versionCode": 6,
+      "versionName": "1.0.5",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -348,7 +348,7 @@
           "language": "zh",
           "homeUrl": "https://www.311s.com/",
           "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.4：修复 Komikku WebView 对作品/章节完整 URL 重复拼接主域名导致的 HTTP 404；多关键词按官网分类交集；图片请求携带官网 Referer。"
+          "message": "仅限已获授权的成年用户使用。v1.0.5：参照 tachiyomi-zh.manhuashe v1.6.1 成品修正 getMangaUrl/getChapterUrl、headersBuilder（Referer+Origin）、imageRequest 和正文 div.comic-content > img 解析；多关键词按官网分类交集，不使用网站搜索。"
         }
       ]
     }
