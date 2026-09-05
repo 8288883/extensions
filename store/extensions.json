@@ -334,7 +334,7 @@
       "name": "Tachiyomi: Manhuashe",
       "packageName": "eu.kanade.tachiyomi.extension.zh.manhuashe",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/tachiyomi-zh.manhuashe-v1.6.2.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/tachiyomi-zh.manhuashe-v1.6.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/logo.png"
       },
       "extensionLib": "1.6",
