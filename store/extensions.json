@@ -331,15 +331,15 @@
       ]
     },
     {
-      "name": "Tachiyomi: Manhuashe",
-      "packageName": "eu.kanade.tachiyomi.extension.zh.manhuashe",
+      "name": "漫画社",
+      "packageName": "com.three11.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/tachiyomi-zh.manhuashe-v1.6.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/Three11s-Komikku-v1.0.7-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 106002,
-      "versionName": "1.6.2",
+      "versionCode": 8,
+      "versionName": "1.0.7",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -350,7 +350,7 @@
           "mirrorUrls": [
             "https://www.m206.com/"
           ],
-          "message": "基于 tachiyomi-zh.manhuashe v1.6.1 成品反编译修改，仅新增官网真实分类筛选（完整分类列表），保留原成品网络、镜像、WebView、正文和图片实现。"
+          "message": "v1.0.7：基于 1.0.6 源码修复封面懒加载、绝对 URL 重复拼接导致的 WebView 404、CDN Referer/Origin 请求，以及分类关键词按官网分类交集筛选；章节保持倒序。"
         }
       ]
     }
