@@ -331,33 +331,11 @@
       ]
     },
     {
-      "name": "漫画社",
-      "packageName": "com.three11.komikku.extension",
-      "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/Three11s-Komikku-v1.0.6-debug.apk",
-        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/logo.png"
-      },
-      "extensionLib": "1.6",
-      "versionCode": 7,
-      "versionName": "1.0.6",
-      "contentWarning": "NSFW",
-      "sources": [
-        {
-          "id": 6230622879116184108,
-          "name": "漫画社",
-          "language": "zh",
-          "homeUrl": "https://www.311s.com/",
-          "mirrorUrls": [],
-          "message": "仅限已获授权的成年用户使用。v1.0.6：参照 Manhuashe v1.6.1 使用可用 m206.com 镜像，修复 311s WebView 404；保留 Referer+Origin、正文 div.comic-content > img 和分类关键词交集筛选。"
-        }
-      ]
-    },
-    {
       "name": "Tachiyomi: Manhuashe",
       "packageName": "eu.kanade.tachiyomi.extension.zh.manhuashe",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/tachiyomi-zh.manhuashe-v1.6.2.apk",
-        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/manhuashe/logo.png"
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/tachiyomi-zh.manhuashe-v1.6.2.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/logo.png"
       },
       "extensionLib": "1.6",
       "versionCode": 106002,
