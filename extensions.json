@@ -356,3 +356,361 @@
     }
   ]
 }
+{
+  "extensions": [
+    {
+      "name": "TIBIU 漫画",
+      "packageName": "net.tibiu.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/tibiu/TIBIU-Komikku-v1.0.4-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/tibiu/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 5,
+      "versionName": "1.0.4",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 3311772026073858867,
+          "name": "TIBIU 漫画",
+          "language": "zh",
+          "homeUrl": "https://comic.tibiu.net",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.4：分类页筛选、IPv4 网络兼容与错误诊断改进。"
+        }
+      ]
+    },
+    {
+      "name": "Nyahentai",
+      "packageName": "si.nayhentai.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/nyahentai/Nyahentai-Komikku-v1.0.11-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/nyahentai/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 12,
+      "versionName": "1.0.11",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 6864783742637475493,
+          "name": "Nyahentai",
+          "language": "zh",
+          "homeUrl": "https://nayhentai.si/",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.11：保留分类、语言、排序和逗号多关键词的公开详情严格交集；候选优先使用最长非分类词，显式分类/语言优先用公开分类候选，详情验证改为单个最多 4 线程执行器并加入 128 项公开详情 LRU 缓存。仅对短暂超时、连接错误、HTTP 429/5xx 退避重试一次；所有详情失败会明确报错，不会伪装成无结果。"
+        }
+      ]
+    },
+    {
+      "name": "TIBIU 漫画（临时 HTTP）",
+      "packageName": "net.tibiu.komikku.temphttp.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/tibiu/TIBIU-Komikku-temp-http-v0.1.1-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/tibiu/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 2,
+      "versionName": "0.1.1-temp-http",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 3566897989573194165,
+          "name": "TIBIU 漫画（临时 HTTP）",
+          "language": "zh",
+          "homeUrl": "http://comic.tibiu.net",
+          "mirrorUrls": [],
+          "message": "临时不安全来源：仅因 comic.tibiu.net HTTPS 证书过期而启用。v0.1.1 修复最近更新空列表。使用明文 HTTP，可能被读取或篡改；仅限可信网络。HTTPS 恢复后请立即卸载本临时来源并使用安全版 TIBIU 漫画。"
+        }
+      ]
+    },
+    {
+      "name": "JComic",
+      "packageName": "net.jcomic.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/jcomic/JComic-Komikku-v1.0.8-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/jcomic/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 9,
+      "versionName": "1.0.8",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 7044663852863780949,
+          "name": "JComic",
+          "language": "zh",
+          "homeUrl": "https://jcomic.net/",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.8：修复多目录作品；公开详情内所有具名 `/page/{作品}/{目录}` 入口均会被列为章节，包括“熟肉”“生肉”等非“第X话”名称，排除无文字封面链接和上一/下一章导航。缺封面时的稳定 logo 回退已改为统一 `store/jcomic/` 二级资源路径；保留严格 HTTPS、受验证 DNS 与每次阅读重新取得公开时效图片 URL。"
+        }
+      ]
+    },
+    {
+      "name": "250漫画",
+      "packageName": "cc.mh250.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/mh250/Mh250-Komikku-v1.0.1-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/mh250/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 2,
+      "versionName": "1.0.1",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 5175541392364239409,
+          "name": "250漫画",
+          "language": "zh",
+          "homeUrl": "https://www.mh250.cc",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.1：详情页仅读取作品 Open Graph 真实封面，避免搜索或站点 UI 图片覆盖；公开分类、单关键词搜索、热门、可分页最近更新、章节与图片阅读均已回归验证，默认使用正常 HTTPS 网络直连。"
+        }
+      ]
+    },
+    {
+      "name": "C漫画",
+      "packageName": "com.cmanhua.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/cmanhua/CManhua-Komikku-v1.0.2-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/cmanhua/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 3,
+      "versionName": "1.0.2",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 2641078534968664207,
+          "name": "C漫画",
+          "language": "zh",
+          "homeUrl": "https://cmanhua.com",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.2：补充站点公开 cimgNN.g5img.top HTTPS 正文 CDN，修复部分章节 data-src 被错误排除导致无图片；保留 Browse 全站分页与搜索、多关键词、章节阅读。默认使用正常 HTTPS 网络直连。"
+        }
+      ]
+    },
+    {
+      "name": "HentaiPaw 中文",
+      "packageName": "com.hentaipaw.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/hentaipaw/HentaiPaw-Komikku-v1.0.7-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/hentaipaw/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 8,
+      "versionName": "1.0.7",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 7781648004906399686,
+          "name": "HentaiPaw 中文",
+          "language": "zh",
+          "homeUrl": "https://zh.hentaipaw.com/",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.7：保留跨页真实标签 ID 成员验证、完整候选覆盖和最多四路详情核验；取消自动重试和标签总页数探测，避免首搜额外串行请求与等待，并将公开详情 LRU 缓存扩展至 256 项。站点返回 HTTP 429 时会明确提示稍后手动刷新；不使用代理、证书绕过或访问控制绕过。"
+        }
+      ]
+    },
+    {
+      "name": "XChina 套图",
+      "packageName": "com.xchina.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/xchina/XChina-Photos-Komikku-v1.0.4-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/xchina/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 5,
+      "versionName": "1.0.4",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 3423815724507002592,
+          "name": "XChina 套图",
+          "language": "zh",
+          "homeUrl": "https://xchina.co/photos.html",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.4：保留分类、公开标签与逗号关键词的严格联合筛选；详情验证并发提升为最多六路且使用 256 项 LRU 公开详情缓存。图册读取以首个公开 photoShow 的真实图片编号作为顺序起点，并支持公开 src/data-src/data-original/data-lazy-src 与 AVIF/GIF 等已验证图片格式；不猜测非连续路径、不使用代理、证书绕过或访问控制绕过。"
+        }
+      ]
+    },
+    {
+      "name": "WMTT5",
+      "packageName": "com.wmtt5.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/wmtt5/WMTT5-Komikku-v1.0.0-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/wmtt5/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 8769838029201899829,
+          "name": "WMTT5",
+          "language": "zh",
+          "homeUrl": "https://wmtt5.com/",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。首发版本仅解析 WMTT5 公开漫画目录、详情、章节 token 与 img.nnpic.xyz HTTPS 正文。分类、进度、排序走公开目录路径；逗号多关键词逐本核验详情公开标题、分类、标签、作者与简介，所有词同时匹配。仅使用标准 HTTPS 和 Referer，不使用代理、证书绕过或访问控制绕过。"
+        }
+      ]
+    },
+    {
+      "name": "NHentai Yaoi",
+      "packageName": "com.nhentaiyaoi.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/nhentaiyaoi/NHentai-Yaoi-Komikku-v1.0.4-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/nhentaiyaoi/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 5,
+      "versionName": "1.0.4",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 8357440793543203648,
+          "name": "NHentai Yaoi",
+          "language": "all",
+          "homeUrl": "https://nhentaiyaoi.net/",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.4：修复部分作品 slug 含全角或不可见 Unicode 时，原始路径被直接写入图片 Referer 头而触发 OkHttp IllegalArgumentException 的问题。Referer 现转换为本站 HTTPS ASCII URL；无法安全编码时才回退公开首页，不影响图片原始 HTTPS URL，也不放宽 TLS 或导入 Cookie。"
+        }
+      ]
+    },
+    {
+      "name": "91JMD",
+      "packageName": "com.jmd91.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/jmd91/91JMD-Komikku-v1.0.0-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/jmd91/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 4187468933610031368,
+          "name": "91JMD",
+          "language": "zh",
+          "homeUrl": "https://91jmd.com/",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。首发版本仅解析 91JMD 公开分类、作品、章节 token 与 img.nnpic.xyz HTTPS 正文。分类、进度、排序使用公开目录路径；多关键词并行取得公开搜索候选，再逐本严格核验详情的标题、作者、分类、TAG 与剧情。仅使用标准 HTTPS 和 Referer，不使用代理、证书绕过或访问控制绕过。"
+        }
+      ]
+    },
+    {
+      "name": "LoveCP Books",
+      "packageName": "com.lovecpbooks.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/lovecpbooks/LoveCP-Books-Komikku-v1.0.4-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/lovecpbooks/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 5,
+      "versionName": "1.0.4",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 6357928501191849193,
+          "name": "LoveCP Books",
+          "language": "ja",
+          "homeUrl": "https://lovecp-books.com/",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.4：热门首屏改为站点根页公开排行榜；最近更新若首个 `/comics/new/1` 返回服务器 5xx，才自动回退至同站根页已公开的新着卡片。后续页、4xx、TLS/连接错误仍如实提示，不伪造列表或掩盖网络故障。保留严格 HTTPS 与默认 TLS/证书/主机名校验；不使用 Cookie、代理、登录或访问控制绕过。"
+        }
+      ]
+    },
+    {
+      "name": "BL Archive",
+      "packageName": "net.blarchive.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/blarchive/BL-Archive-Komikku-v1.0.1-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/blarchive/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 2,
+      "versionName": "1.0.1",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 6276474262861516227,
+          "name": "BL Archive",
+          "language": "ja",
+          "homeUrl": "https://www.bl-archive.net/",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.1：无关键词筛选和最近更新均按原站日期顺序返回完整公开 REST 分页；关键词、分类和标签仅严格核验公开 taxonomy metadata，不再因标题或正文误命中。详情含 `_embed=1` 以复用公开分类/标签，响应正确关闭；不登录、不使用代理、证书绕过或访问控制绕过。"
+        }
+      ]
+    },
+    {
+      "name": "Eromanga Show",
+      "packageName": "com.eromangashow.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/eromangashow/Eromanga-Show-Komikku-v1.0.3-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/eromangashow/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 4,
+      "versionName": "1.0.3",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 8786264295867794726,
+          "name": "Eromanga Show",
+          "language": "ja",
+          "homeUrl": "https://eromanga-show.com/",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.3：因用户设备实测标签页 `/tags/{id}` 会返回 HTTP 429，运行时已回退为完整公开站内搜索候选页，再严格核验作品自身标题和显式 metadata；不再用失败标签页缩减结果。详情读取采用单路、每秒一次并仅对 429 等待重试一次，避免突发请求；公开标签索引保留为离线资料。"
+        }
+      ]
+    },
+    {
+      "name": "非常爱漫",
+      "packageName": "com.veryim.komikku.extension",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/veryim/Veryim-Komikku-v1.0.5-debug.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/veryim/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 6,
+      "versionName": "1.0.5",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 5933725080679923582,
+          "name": "非常爱漫",
+          "language": "zh",
+          "homeUrl": "https://www.veryim.com/",
+          "mirrorUrls": [],
+          "message": "仅限已获授权的成年用户使用。v1.0.5：保持原版 packageName 和签名证书，仅递增 versionCode 以支持覆盖安装；搜索严格复用原站公开 /statics/search.aspx?key= 请求，第 2 页起使用原站实际 page=N 参数，保留原站返回顺序和结果；来源客户端固定 HTTP/1.1、IPv4 优先并开启连接失败重试；详情/正文网络错误区分 DNS、TCP、TLS、超时和连接关闭并包含 URL。不登录、不使用代理或访问控制绕过；设备验证待完成。"
+        }
+      ]
+    },
+    {
+      "name": "Tachiyomi: Manhuashe",
+      "packageName": "eu.kanade.tachiyomi.extension.zh.manhuashe",
+      "resources": {
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/tachiyomi-zh.manhuashe-v1.6.2.apk",
+        "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/logo.png"
+      },
+      "extensionLib": "1.6",
+      "versionCode": 106002,
+      "versionName": "1.6.2",
+      "contentWarning": "NSFW",
+      "sources": [
+        {
+          "id": 6230622879116184108,
+          "name": "漫画社",
+          "language": "zh",
+          "homeUrl": "https://www.311s.com/",
+          "mirrorUrls": [
+            "https://www.m206.com/"
+          ],
+          "message": "基于 tachiyomi-zh.manhuashe v1.6.1 成品反编译修改，仅新增官网真实分类筛选（完整分类列表），保留原成品网络、镜像、WebView、正文和图片实现。"
+        }
+      ]
+    }
+  ]
+}
