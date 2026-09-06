@@ -334,12 +334,12 @@
       "name": "漫画社",
       "packageName": "com.three11.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/Three11s-Komikku-v1.0.8-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/Three11s-Komikku-v1.0.9-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 9,
-      "versionName": "1.0.8",
+      "versionCode": 10,
+      "versionName": "1.0.9",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -350,7 +350,7 @@
           "mirrorUrls": [
             "https://www.m206.com/"
           ],
-          "message": "v1.0.8：基于原版源码修复详情页封面镜像、分类多关键词 URL 交集。"
+          "message": "v1.0.9：详情封面多选择器回退；分类关键词支持逗号或空格分隔。"
         }
       ]
     }
