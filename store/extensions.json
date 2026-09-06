@@ -334,12 +334,12 @@
       "name": "漫画社",
       "packageName": "com.three11.komikku.extension",
       "resources": {
-        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/Three11s-Komikku-v1.1.2-debug.apk",
+        "apkUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/Three11s-Komikku-v1.1.3-debug.apk",
         "iconUrl": "https://raw.githubusercontent.com/8288883/extensions/main/store/311s/logo.png"
       },
       "extensionLib": "1.6",
-      "versionCode": 13,
-      "versionName": "1.1.2",
+      "versionCode": 14,
+      "versionName": "1.1.3",
       "contentWarning": "NSFW",
       "sources": [
         {
@@ -350,7 +350,7 @@
           "mirrorUrls": [
             "https://www.m206.com/"
           ],
-          "message": "v1.1.2：按指南用较小分类候选集读取详情，按真实标签验证全部关键词，避免标签页同页交集与全量分页。"
+          "message": "v1.1.3：详情标签验证改为受控 16 并发，避免每 4 条完成后串行等待。"
         }
       ]
     }
